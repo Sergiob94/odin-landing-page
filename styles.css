@@ -1,0 +1,225 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    margin: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.logos {
+    display: flex;
+    gap: 0;
+}
+
+.left-logo {
+    height: 70px;
+    width: auto;
+}
+
+.right-logo {
+    height: 70px;
+    width: auto;
+}
+
+.header-links {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    color: rgb(255, 0, 0);
+    margin-right: 50px;
+}
+
+li {
+    font-size: 25px;
+    font-weight: bold   ;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.header-and-main-section {
+    background-color: rgb(201, 22, 22);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 80px;
+}
+
+.main-section-image {
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.riverplate-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-button {
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px ;
+}
+
+.second-section {
+    margin: 50px;
+}
+
+.glories {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.idols {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.idol {
+    height: 220px;
+    width: 230px;
+    margin: 10px;
+    border-radius: 15px;
+    border: solid white;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 345px;
+    max-width: 300px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.item-subtitle {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.item-subtext {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.wrapper {
+    background-color: white;
+    color: black;
+}
+
+.quote-and-author{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    margin-top: 20px;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.fourth-section {
+    background-color: red;
+}
+
+.box {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    border-radius: 10px;
+    margin: 100px 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.become-a-fan {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.second-sign-up-button {
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px ;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    margin: 0;
+    padding-top: 31px;
+    padding-bottom: 32px;
+}
